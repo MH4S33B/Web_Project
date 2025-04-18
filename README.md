@@ -38,11 +38,11 @@ Clone the repository and get started in just a few commands:
 
 Step 1: Clone the repository
 ```
-git clone https://github.com/ahmedowais520/Web-Project.git
+git clone https://github.com/MH4S33B/Web_Project.git
 ```
 Step 2: Navigate into the directory
 ```
-cd Web-Project/Web-Project
+cd Web-Project
 ```
 Step 3: Install dependencies
 ```
@@ -57,14 +57,20 @@ The app will be available at http://localhost:3000 by default.
 ## 📁 Folder Structure
 ```
 Web-Project/
-├── Web-Project/
-    ├── routes/
-    ├── views/
-    ├── models/
-    ├── public/
-    ├── .env
-    ├── server.js
-    └── package.json
+├── views/
+|    ├── home.ejs
+|    ├── login.ejs
+|    └── register.ejs
+├── models/
+|    └── user.js
+├── public/
+|    └── css/
+|        └── style.css
+├── database.sqlite
+├── index.js
+├── package.json
+├── package-lock.json
+└── README.md
 ```
 
 ## 🧪 Use Cases
